@@ -1,9 +1,9 @@
 function User(props) {
     return (
-      <div className='padd'>
-          {props.userData} 
-          {props.handle}
-      </div>
+      <span className='user'>
+        <span>{props.userData} </span>
+        <span>{props.handle}</span>          
+        </span> 
     );
   }
   

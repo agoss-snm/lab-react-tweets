@@ -1,8 +1,8 @@
 function Message(props) {
     return (
-      <div className='padd margin'>
+      <p className='message'>
           {props.message}
-      </div>
+      </p>
     );
   }
   
